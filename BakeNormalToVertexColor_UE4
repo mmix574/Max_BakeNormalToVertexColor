@@ -164,7 +164,6 @@ function CalVertNormals =
 						local Col = norCol as color
 						----print("totalAngle" + totalAngle as string)
 						Col.a = totalAngle / (360) * 255
-						Col.a = 1.0
 						local vertlist=#{}
 						append vertlist iVert
 						local V_Channel = 0
